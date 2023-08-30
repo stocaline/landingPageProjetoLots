@@ -8,18 +8,14 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Recursos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+
     </header>
-    <section class="hero">
-        <h1>Bem-vindo à nossa plataforma de gerenciamento de apartamentos e condomínios</h1>
-        <p>Gerencie gastos com água, luz, gás e receba avisos importantes de forma eficiente.</p>
-        <a href="#" class="cta-button">Experimente Agora</a>
+    <section class="main">
+        <div class="main-container">
+            <h1>Bem-vindo à nossa plataforma de gerenciamento de apartamentos e condomínios</h1>
+            <p>Gerencie gastos com água, luz, gás e receba avisos importantes de forma eficiente.</p>
+            <a href="#" class="cta-button">Experimente Agora</a>
+        </div>
     </section>
     <section class="features">
         <h2>Recursos Principais</h2>
@@ -53,6 +49,22 @@
             </blockquote>
         </div>
         <!-- Mais depoimentos podem ser adicionados aqui -->
+    </section>
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
+        <form action="processar_formulario.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar Mensagem</button>
+        </form>
     </section>
     <footer>
         <p>&copy; 2023 EasyInc. Todos os direitos reservados</p>
