@@ -6,6 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #42c6ff;
 }
 
 nav ul {
@@ -21,10 +22,11 @@ nav a {
 }
 
 .main {
-    background-image: url('../assets/background-image.jpg');
+    background-image: url('../assets/background-image.png.jpg');
     background-size: cover;
     padding: 5rem 0;
     color: white;
+    height: 50vh;
 }
 
 .main-container{
@@ -53,11 +55,11 @@ nav a {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #006f9f;
 }
 
 .features {
-    background-color: #f4f4f4;
+    background-color: #f8feff;
     padding: 4rem 0;
     text-align: center;
 }
@@ -72,8 +74,9 @@ nav a {
 }
 
 .feature img {
-    max-width: 100px;
+    max-width: 450px;
     margin-bottom: 1rem;
+    border-radius: 10px;
 }
 
 .feature h3 {
@@ -89,6 +92,8 @@ nav a {
 .testimonials {
     padding: 4rem 0;
     text-align: center;
+    align-items: center;
+    z-index: 950;
 }
 
 .testimonials h2 {
@@ -116,6 +121,11 @@ nav a {
 
 .testimonial cite {
     font-weight: bold;
+}
+img{
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
 }
 
 #contact {
