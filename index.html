@@ -1,89 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Plataforma de Gerenciamento</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <title>Lots - Landing page</title>
 </head>
-<body>
-    <header>
 
-    </header>
-    <section class="main">
-        <div class="main-container">
-            <h1>Bem-vindo à nossa plataforma de gerenciamento de apartamentos e condomínios</h1>
-            <p>Gerencie gastos com água, luz, gás e receba avisos importantes de forma eficiente.</p>
-            <a href="#" class="cta-button">Experimente Agora</a>
-        </div>
-    </section>
-    <section class="features">
-        <h2>Recursos Principais</h2>
-        <div class="feature">
-            <div class="border-img">
-            <img src="\assets\feature-1.png" alt="Recurso 1" class="img">
+<body>
+
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1>Lo<span>t</span>s</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#services" data-after="Serviços">Serviços</a></li>
+                        <li><a href="#" data-after="Lorem">Lorem</a></li>
+                        <li><a href="#contact" data-after="Contato">Contato</a></li>
+                    </ul>
+                </div>
             </div>
-            <h3>Gerenciamento de Gastos</h3>
-            <p>Acompanhe os gastos com água, luz, gás e outras despesas de forma eficiente.</p>
         </div>
-        <div class="feature">
-            <img src="\assets\feature-2.png" alt="Recurso 3">
-            <h3>Registro de ocorrências</h3>
-            <p>Faça registros de ocorrências facilmente e completamente anonimamente.</p>
-        </div>
-        <div class="feature">
-            <img src="\assets\feature-3.png" alt="Recurso 2">
-            <h3>Anúncios Importantes</h3>
-            <p>Receba avisos importantes do condomínio e fique atualizado sobre eventos e mudanças.</p>
-        </div>
-        <!-- Mais recursos podem ser adicionados aqui -->
     </section>
-    
-    <section class="testimonials">
-        <h2>Depoimentos de Clientes</h2>
-        
-        <div class="testimonial">
-            <img src="\assets\user-1.jpg" alt="Cliente 1">
-            <blockquote>
-                "A plataforma de gerenciamento tornou minha vida no condomínio muito mais fácil. Nunca mais me preocupo com contas mal organizadas."
-                <cite>Joana Silva</cite>
-            </blockquote>
+
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Bem vindo a Lots, <span></span></h1>
+                <h1>sua gestão inteligente de <span></span></h1>
+                <h1>condominios<span></span></h1>
+                <a href="#" class="cta">Contratar Agora</a>
+            </div>
         </div>
-        <div class="testimonial">
-            <img src="\assets\user-2.jpg" alt="Cliente 2">
-            <blockquote>
-                "Simplesmente adorei a facilidade de receber notificações e comunicados. Recomendo a todos os moradores!"
-                <cite>Carlos Oliveira</cite>
-            </blockquote>
-        </div>
-        <div class="testimonial">
-            <img src="\assets\user-3.jpg" alt="Cliente 2">
-            <blockquote>
-                "Nunca pensei que um simples aplicativo ia me salvar tanto tempo e dinheiro!"
-                <cite>Marcos Aurélio</cite>
-            </blockquote>
-        </div>
-        <!-- Mais depoimentos podem ser adicionados aqui -->
     </section>
-    <section id="contact">
-        <h2>Entre em Contato</h2>
-        <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
-        <form action="processar_formulario.php" method="post">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Enviar Mensagem</button>
-        </form>
+
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                <h1 class="section-title">Serv<span>i</span>ços</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry'
+                    s standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries</p>
+            </div>
+
+            <div class="service-bottom">
+                <div class="service-item">
+                    <div class="icon">
+                        <img
+                            src="data:image/png;base64,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">
+                    </div>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry'
+                        s standard dummy text ever since the 1500s,</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon">
+                        <img
+                            src="data:image/png;base64,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">
+                    </div>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry'
+                        s standard dummy text ever since the 1500s,</p>
+                </div>
+
+
+                <div class="service-item">
+                    <div class="icon">
+                        <img
+                            src="data:image/png;base64,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">
+                    </div>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry'
+                        s standard dummy text ever since the 1500s,</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon">
+                        <img
+                            src="data:image/png;base64,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">
+                    </div>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry'
+                        s standard dummy text ever since the 1500s,</p>
+
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>&copy; 2023 EasyInc. Todos os direitos reservados</p>
-    </footer>
+
+    <section id="contact" class="contact">
+        <div class="container-contact">
+            <div class="contact-top">
+                <h2 class="section-title">Entre em <span>Contato</span></h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry'
+                    s standard dummy text ever since the 1500s</p>
+            </div>
+            <div class="contact-wrapper">
+                <form action="" class="contact-form">
+                    <div class="wrapper-flex">
+                        <div class="input-wrapper">
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name" class="input-field" id="name" placeholder="Qual o seu Nome?"
+                                required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" class="input-field" id="name"
+                                placeholder="Qual o seu Email?" required>
+                        </div>
+
+                    </div>
+
+                    <label for="message">Coloque sua mensagem aqui:</label>
+                    <textarea name="message" id="message" class="input-field" required></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        <span>Enviar mensagem</span>
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                    </button>
+
+                </form>
+
+                <ul class="contact-list">
+
+                    <li>
+                        <a href="#" class="contact-link">
+                            <ion-icon name="mail-outline"></ion-icon>
+
+                            <span>: support@lots.com</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="contact-link">
+                            <ion-icon name="globe-outline"></ion-icon>
+
+                            <span>: www.website.com</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="contact-link">
+                            <ion-icon name="call-outline"></ion-icon>
+
+                            <span>: (48) 9 9999-9999</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="contact-link">
+                            <ion-icon name="time-outline"></ion-icon>
+
+                            <span>: 9:00 AM - 6:00 PM</span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="contact-link">
+                            <ion-icon name="location-outline"></ion-icon>
+
+                            <address>: 1644 Mauro Ramos, SC 07662</address>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1>Lo<span>t</span>s</h1>
+            </div>
+            <h2>Sua Solução Web Completa</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img
+                            src="data:image/png;base64,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"></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE1klEQVR4nO2Z609bZRzHT7ht64DJdWNlzA7GWoyvjIv+FZqomZkvJJkvfa8hjsNt0DEqQ2DQcqczJijgBXDqFuOyxPhCsxBMHPSyXg6l7WnP6SnQnkL5maeoYeG05zx9oGrCN/m9/3xPn9/v+T3fUtSRjnQkck1BtnYi9OqlcaGhdjw0XTvO/35xNBSsGeNi1aNcrHqED2qGuSXNcHBaYwo2nDexr1A0ZFH/tl74bPOczhzWaycF96UJAVDVjofg4hgqHmpGeage4eHCMJcozVAQnjehCsD5wYCraoDtUJvYyoyD10wJZTpz2KidFETtZBiw4Y0BqBpkE1V5xy9W3vENVBiZ0ozA190NX9VOrgd05jCQwp8bSBhIlLrfx57t9b19aOAvGSG37m54SGdeh0OAh7N9qLxQ0esdpIyQe9DwqjpzeCED8HDmEy+U96zNVxgZ1UHB52YS/nTPWqLKbq/+QNFLecQGMnRsYC98+W0PlHV7oLSbGSCD/zT8Dim8xsjCtXsCjC5G4IFDhF/XtuBnJgYPnSLMWaLw0UNBEr6sexVKP16Foi73lbTgtROhEt3kup8E/rVZHmz8NqTSI5eYFL7EwEBJFxPI70pjxKI5TwL/+iwP4vZOSvi9BiThDQwUdzFQ1Onqx4J/0bxRSXJJXTCx4BLioESPXGJq+FtuVGKRnqnC+fp6koZ9/35YEfzfBmTg4blOF5y66exQRk9DlnZCcJFMm+knUZCSI7QNb85wUDvo260BL2j61xTAu6BQ73CjpVGWP7FVEo7K5aB0474xw6VuWIM0/KmbTijUJ+qyrAG0EpPO+WBkf/N61uNwhgC+oMMB+XrHh/IGJkIzpJfUlkT//rIaI4Iv6HDAyXbH57IGasf4JdIbNi4xPe/bo0Tw+e0OUN2wL8oaqBkLBUjXAykD39uiRPAnbzyFE212v7yBUU4k3W2SG0gfXtX2FFSt9qisgeoRTsSBRxcWH915pqQUiwNwkfi+Mv22rgy+zQ4nWpQZCOB8eUGUXxdSqeknXhl8qx2OtdjkjxBKD3CODamBqzOsIvjjLTY43myTb2LNUHAG58yTGrg87FEG32KDY802+TGKchuchg0RGNiKA5TecimFh7wmyweyBlDohPOSqp/j4b2Fv2qeg2tzHEhZerwWg/qvA1D/FQvvfrlbV77wY8BbIafZ+rKiZa7KyDrTfQaiUSk1Rr+zRpRPm9b98LlNVofiNA8lZunCozmfzEC68HnIAG1pp5QKxX27iRk+PLqgpAzcs0RI4KNUwxM1hSMU96UDn9zAZrrwkN1o6cWCTxgY4ovVfT4/LjxaD5IZSAc+p9HCUvQf6eWmKKvEhUd7TSoDmPCQ3bjyFkUilFXiwKcygA1/fbmPItYUZJ/u8cziPEYkDaxsYsHnNK7MUfSPOeQG0K9gZFTl3Z55pfu8lIFvVzaVw19f+YaiDyjc/UdGyEVZpZJ9PrkBhceGPqAvLyWUVZYY3P5Uj5FkBmTgfcQNq1QF7e4SFPcVdbqjUutBMgPJLqlsNOfppWIq0yo2ONUoMSvUO5x7LykpAwvLG8/uNrTVmVgPcG/YQxENWSh0QrkNij4WveKGi4/FN2I7sLm1A0xoK25+LLBon0crcWKr/C/8zXqkI1H/f/0JPDNnaCVeJTwAAAAASUVORK5CYII="></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img
+                            src="data:image/png;base64,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"></a>
+                </div>
+            </div>
+            <p>Copyright © 2023 EasyInc. Todos os direitos reservados</p>
+        </div>
+    </section>
+
     <script src="./scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
