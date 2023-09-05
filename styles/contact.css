@@ -50,8 +50,8 @@
 
   #contact .section-title { 
     font-size: 4rem;
-    font-weight: 300;
-    color: black;
+    font-weight: 700;
+    color: #303030;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -89,8 +89,9 @@
   .input-wrapper { margin-bottom: 20px; }
   
   .contact label {
+    font-size: 1.5rem;
     color: var(--independence);
-    font-weight: var(--fw-500);
+    font-weight: 500;
     margin-bottom: 10px;
   }
   

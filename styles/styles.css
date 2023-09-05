@@ -206,7 +206,7 @@
     animation-delay: 3s;
 }
 
-#hero h1 span {
+#hero h1 .animationContent {
     position: absolute;
     top: 0;
     left: 0;
@@ -227,6 +227,10 @@
 
 #hero h1:nth-child(3) span {
     animation-delay: 2.5s;
+}
+
+#logoMain{
+    color: var(--blue);
 }
 
 #hero .cta {
@@ -257,14 +261,14 @@
 }
 
 #services .service-top{
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 #services .section-title { 
     font-size: 4rem;
-    font-weight: 300;
-    color: black;
+    font-weight: 700;
+    color: #303030;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -291,12 +295,27 @@
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(../assets/img1.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
     z-index: 1;
     overflow: hidden;
+}
+
+#services .service-item:nth-child(1) {
+    background-image: url(../assets/img1.jpg);
+}
+
+#services .service-item:nth-child(2) {
+    background-image: url(../assets/img2.jpg);
+}
+
+#services .service-item:nth-child(3) {
+    background-image: url(../assets/img1.jpg);
+}
+
+#services .service-item:nth-child(4) {
+    background-image: url(../assets/img2.jpg);
 }
 
 #services .service-item::after {
