@@ -1,0 +1,52 @@
+#invite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#invite img {
+    width: 100px;
+}
+
+#invite h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+#invite p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#invite a {
+    margin: 2rem;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: var(--fw-700);
+    padding: 15px 30px;
+    border-radius: 4px;
+    transition: var(--transition);
+    background: var(--blue);
+    color: var(--white);
+    text-align: center;
+  }
+
+  #invite a:is(:hover, :focus) {
+    box-shadow: 0 3px 10px var(--blue);
+  }
+
+  #invite a:is(:hover, :focus) { transform: translateY(-2px); }

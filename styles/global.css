@@ -2,6 +2,10 @@
 @import url(../styles/styles.css);
 @import url(../styles/contact.css);
 @import url(../styles/general.css);
+@import url(../styles/partners.css);
+@import url(../styles/invite.css);
+@import url(../styles/about.css);
+@import url(../styles/faq.css);
 
 * {
   padding: 0;

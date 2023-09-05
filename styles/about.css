@@ -1,4 +1,4 @@
-#general {
+#about {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
@@ -7,15 +7,17 @@
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
+    margin-bottom: 10vh;
     gap: 30px;
 }
 
-#general img {
+#about img {
     width: 45%;
     height: auto;
+    border-radius: 20px;
 }
 
-#general .section-title { 
+#about .section-title { 
     font-size: 4rem;
     font-weight: 700;
     color: #303030;
@@ -25,11 +27,11 @@
     text-align: left;
 }
 
-#general .content p{
+#about .content p{
     font-size: 1.7rem;
     font-weight: 500;
 }
 
-#general .section-title span { 
+#about .section-title span { 
     color: var(--blue);
 }
