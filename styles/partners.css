@@ -20,9 +20,15 @@
 }
 
 #partners .content {
+    display: flex;
     margin-top: 50px;
     margin-bottom: 100px;
-    display: flex;
+    justify-content: center;
     gap: 10vw;
+}
+
+#partners img {
+    align-self: center;
+    width: 20%;
 }
 

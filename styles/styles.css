@@ -230,15 +230,19 @@
 }
 
 #logoMain{
-    color: var(--blue);
+    color: transparent;
+    animation: text_reveal_logo 1.5s ease forwards;
+    animation-delay: 3s;
 }
 
 #hero .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: var(--blue);
+    /* color: var(--blue);
     background-color: transparent;
-    border: 2px solid var(--blue);
+    border: 2px solid var(--blue); */
+    color: white;
+    background-color: var(--blue);
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -248,8 +252,9 @@
 }
 
 #hero .cta:hover {
-    color: white;
-    background-color: var(--blue);
+    color: var(--blue);
+    background-color: white;
+    transform: translateY(-2px);
 }
 
 #services .services{
@@ -263,6 +268,11 @@
 #services .service-top{
     max-width: 800px;
     margin: 0 auto;
+}
+
+#services .service-top p{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 #services .section-title { 
@@ -315,7 +325,7 @@
 }
 
 #services .service-item:nth-child(4) {
-    background-image: url(../assets/img2.jpg);
+    background-image: url(../assets/img4.png);
 }
 
 #services .service-item::after {
@@ -423,6 +433,12 @@
 @keyframes text_reveal {
     100%{
         color: white;
+    }
+}
+
+@keyframes text_reveal_logo {
+    100%{
+        color: var(--blue);
     }
 }
 
