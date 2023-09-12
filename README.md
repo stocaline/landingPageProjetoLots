@@ -14,7 +14,7 @@
 📲 *PMI II*
 
 ⌨️ _*url Protótipo (Figma):*_ 
-📝 _*url Modelagem Sistema:*_ https://app.diagrams.net/#G1P2KRhSoSNOd4K_BOeidNJR6z2Am1ZzpQ
+📝 _*url Modelagem Sistema:*_ https://drive.google.com/file/d/1P2KRhSoSNOd4K_BOeidNJR6z2Am1ZzpQ/view?pli=1
 -------------------
 💻 *PMI III*
 
